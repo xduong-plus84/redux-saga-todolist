@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import "./todoList_Saga.css";
 
 export default function Redux_Saga_TodoList() {
+  let xoaCaiNayDi = 24;
+
   let inputTask = useRef(null);
 
   let taskList = [];
